@@ -1,20 +1,15 @@
-# Project Title
+# Sightseeing along the route
 
 Building AI course project
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+A web app that finds places of interest between starting point and the destination, and suggests optimal route through them.
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+When taking a roadtrip, I know where I'm embarking from and where is the final destination at. The best route between those two points is easy to plot. Instead of just driving non-stop, let's say from Vantaa to Ruka, I'd like to see points of interest along that route, within reasonable deviation from the fastest route. One could search places manually, but it gets harder the longer the route is, especially since attractions are often grouped by city or municipality.
 
 
 ## How is it used?
