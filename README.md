@@ -28,17 +28,13 @@ Before the final routing through Google Directions API, a rough optimal route be
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The plan sounds simple enough and in theory the data should already be available, but it's hard to estimate how precise or resouce hungry the attraction finding would be. For a pleasant user experience the suggestion(s) should be calculated as fast as a Google Maps route query, or at least as fast as the plane ticket finder at Supersaver.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+A proof-of-concept could be built quite easily by one developer. The ideal end result might not be a separate app or website, but instead it should be part of an existing service such as Google Maps. Unsurprisingly, Google Maps already provides similiar function for single locations, such as gas stations along the route you're currently navigating through.
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Services providing similiar features already exist, such as [Roadtrippers.com](https://roadtrippers.com/), Google Maps and Tripadvisor. However, as of the time of writing the search provided by Google and Tripadvisor are somewhat simplified and Roadtrippers.com requires manual labor for adding stopovers.
