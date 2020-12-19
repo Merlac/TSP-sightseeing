@@ -11,6 +11,8 @@ A web app that finds places of interest between starting point and the destinati
 
 When taking a roadtrip, I know where I'm embarking from and where is the final destination at. The best route between those two points is easy to plot. Instead of just driving non-stop, let's say from Vantaa to Ruka, I'd like to see points of interest along that route, within reasonable deviation from the fastest route. One could search places manually, but it gets harder the longer the route is, especially since attractions are often grouped by city or municipality.
 
+![Route example](https://github.com/Merlac/TSP-sightseeing/blob/main/TSP-sightseeing.jpg?raw=true)
+
 
 ## How is it used?
 
