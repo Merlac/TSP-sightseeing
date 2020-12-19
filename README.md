@@ -9,7 +9,7 @@ A web app that finds places of interest between starting point and the destinati
 
 ## Background
 
-When taking a roadtrip, I know where I'm embarking from and where is the final destination at. The best route between those two points is easy to plot. Instead of just driving non-stop, let's say from Vantaa to Ruka, I'd like to see points of interest along that route, within reasonable deviation from the fastest route. One could search places manually, but it gets harder the longer the route is, especially since attractions are often grouped by city or municipality.
+When taking a roadtrip, I know where I'm embarking from and where is the final destination at. The best route between those two points is easy to plot using Google Maps, for example. Instead of just driving non-stop, let's say from Vantaa to Ruka, I'd like to see points of interest along that route, within reasonable deviation from the fastest route. One could search places manually, but it gets harder the longer the route is, especially since attractions are often grouped by city or municipality.
 
 ![Route example](https://github.com/Merlac/TSP-sightseeing/blob/main/TSP-sightseeing.jpg?raw=true)
 
@@ -18,7 +18,7 @@ When taking a roadtrip, I know where I'm embarking from and where is the final d
 
 The user would input the point of departure, the destination and the amount of allowed deviation measured in time or distance. The app would respond with points of interest in map view and an optimal course already plotted through them.
 
-The detours could be filtered (in advance or afterwards) based on interests and needs, such as museums and restaurants. The amount of detours could be suggested automatically, if opening times of attractions, time of departure and total allowed travel time are known.
+The detours could be filtered (in advance or afterwards) based on interests and needs, such as museums and restaurants. The amount of detours could be suggested automatically, if opening times of attractions, time usually spent at the locations, time of departure and total allowed travel time are known (they are, thanks Google!)
 
 
 ## Data sources and AI methods
@@ -33,6 +33,8 @@ The plan sounds simple enough and in theory the data should already be available
 ## What next?
 
 A proof-of-concept could be built quite easily by one developer. The ideal end result might not be a separate app or website, but instead it should be part of an existing service such as Google Maps. Unsurprisingly, Google Maps already provides similiar function for single locations, such as gas stations along the route you're currently navigating through.
+
+The project could be developed further by using the planned & realized search/visit history of other users. For example, people who travelled along this route usually visited here and ate there.
 
 
 ## Acknowledgments
