@@ -14,43 +14,15 @@ When taking a roadtrip, I know where I'm embarking from and where is the final d
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The user would input the point of departure, the destination and the amount of allowed deviation measured in time or distance. The app would respond with points of interest in map view and an optimal course already plotted through them.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
+The detours could be filtered (in advance or afterwards) based on interests and needs, such as museums and restaurants. The amount of detours could be suggested automatically, if opening times of attractions, time of departure and total allowed travel time are known.
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+The most important data sources in the app would be [Tripadvisor API](http://developer-tripadvisor.com/content-api/) for places of interest and [Google Directions API](https://developers.google.com/maps/documentation/directions/overview) for routing. For more advanced timing and detailed routing opening hours could be pulled from [Google Places API](https://developers.google.com/places/web-service/details), if not provided by the Tripadvisor API.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+Before the final routing through Google Directions API, a rough optimal route between selected places could be calculated using AI methods suitable for solving the Travelling Salesman Problem.
 
 ## Challenges
 
